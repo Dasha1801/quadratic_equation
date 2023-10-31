@@ -1,0 +1,13 @@
+.wrapperApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  h1 {
+    font-size: 28px;
+    color: #1c2f3d;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+}
