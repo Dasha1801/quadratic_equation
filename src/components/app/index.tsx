@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import EnterUserData from '../enterUserData'
 import './style.scss'
 import Result from '../result'
+import Separator from '../separator'
 
 export interface IState {
   a: string
@@ -38,9 +39,11 @@ const App = () => {
     <div className="wrapperApp">
       <h1>
         Решение квадратного уравнения
-        <br /> вида: ax<sup>2</sup> + bx + c = 0
+        <br /> ax<sup>2</sup> + bx + c = 0
       </h1>
+      <Separator />
       <EnterUserData data={state} onChange={onChange} />
+      <Separator />
       <div className="actions">
         <div
           className={`btn ${isDisabled || isHasResult ? 'notValid' : ''}`}
