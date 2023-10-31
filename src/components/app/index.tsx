@@ -36,7 +36,7 @@ const App = () => {
   )
 
   return (
-    <div className="wrapperApp">
+    <div className="wrapper-app">
       <h1>
         Решение квадратного уравнения
         <br /> ax<sup>2</sup> + bx + c = 0
@@ -46,7 +46,7 @@ const App = () => {
       <Separator />
       <div className="actions">
         <div
-          className={`btn ${isDisabled || isHasResult ? 'notValid' : ''}`}
+          className={`btn ${isDisabled || isHasResult ? 'not-valid' : ''}`}
           onClick={!isDisabled ? () => setIsHasResult(true) : undefined}
         >
           Рассчитать корни

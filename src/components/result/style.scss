@@ -5,7 +5,7 @@
   gap: 20px;
 
   .title {
-    color: #1c2f3d;
+    color: var(--color-blue);
     font-size: 22px;
     font-weight: 600;
   }
@@ -16,7 +16,7 @@
     flex-wrap: wrap;
 
     span {
-      color: #1c2f3d;
+      color: var(--color-blue);
       font-size: 26px;
 
       sub {

@@ -5,18 +5,20 @@
   gap: 20px;
 
   .text {
-    color: #646464;
-    font-size: 20px;
-    word-spacing: 0.24px;
+    color: var(--color-gray-medium);
+    font-size: 22px;
   }
 
   .expression {
     font-size: 20px;
-    color: #1c2f3d;
+    color: var(--color-blue);
     font-weight: 600;
-  }
 
-  .expression {
+    sup {
+      color: inherit;
+      font-weight: inherit;
+    }
+
     input {
       width: 80px;
       font-size: 18px;
