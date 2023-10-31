@@ -15,7 +15,8 @@ const Result = ({ a, b, c }: IPropsResult) => {
     if (D < 0) {
       return (
         <div className="resultWrapper">
-          <span>D &#8249; 0,</span> <span>корней нет!</span>
+          <span>D &#8249; 0,</span>{' '}
+          <span>уравнение не имеет действительных решений.</span>
         </div>
       )
     } else if (D === 0) {
