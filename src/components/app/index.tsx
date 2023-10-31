@@ -31,7 +31,7 @@ const App = () => {
   }
 
   const isDisabled = useMemo(
-    () => Object.values(state).some((val) => val === ''),
+    () => Object.values(state).some((val) => !Number(val)),
     [state]
   )
 

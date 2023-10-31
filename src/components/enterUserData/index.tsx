@@ -9,7 +9,9 @@ interface IPropsData {
 const EnterUserData = ({ data: { a, b, c }, onChange }: IPropsData) => {
   return (
     <div className="wrapperData">
-      <div className="text">Введите данные для расчета корней уравнения</div>
+      <div className="text">
+        Введите данные для расчета корней уравнения (натуральные числа)
+      </div>
       <div className="expression">
         <input
           value={a}
