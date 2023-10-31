@@ -1,0 +1,27 @@
+.resultBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .title {
+    color: var(--color-blue);
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .resultWrapper {
+    display: flex;
+    gap: 5px 20px;
+    flex-wrap: wrap;
+
+    span {
+      color: var(--color-blue);
+      font-size: 26px;
+
+      sub {
+        color: inherit;
+      }
+    }
+  }
+}
