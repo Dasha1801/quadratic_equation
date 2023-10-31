@@ -15,3 +15,17 @@ body {
   padding: 40px 20px 20px;
   background-color: #4444442e;
 }
+
+input,
+a,
+button {
+  all: unset;
+}
+
+input {
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #646464;
+  padding: 0 10px;
+}

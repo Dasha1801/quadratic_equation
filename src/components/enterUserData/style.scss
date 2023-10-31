@@ -1,7 +1,27 @@
 .wrapperData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
   .text {
     color: #646464;
+    font-size: 20px;
     word-spacing: 0.24px;
+  }
+
+  .title,
+  .expression {
+    font-size: 20px;
+    color: #1c2f3d;
+    font-weight: 600;
+  }
+
+  .expression {
+    input {
+      width: 80px;
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 }
